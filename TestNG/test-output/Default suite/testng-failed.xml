@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Hub_Server.Chrome_Hub_Server">
+        <methods>
+          <include name="test_before"/>
+          <include name="endTest"/>
+          <include name="test_two_Simple_Form_Demo"/>
+          <include name="test_Drag_And_Drop"/>
+        </methods>
+      </class> <!-- Hub_Server.Chrome_Hub_Server -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

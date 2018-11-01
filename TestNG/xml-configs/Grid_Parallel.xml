@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel TestSuite" parallel="tests">
+
+<test name="Hub_FireFox">        <!-- E:\Eclipse-Data\workspaces\Eclipse-inst-win64-Data-Neon\TestNG\xml-configs   -->
+	<classes>
+		<class name="Hub_Server.Chrome_Hub_Server"></class>
+		<class name="Hub_Server.FireFox_Hub_Server"></class>		
+	</classes>
+
+</test>
+
+
+<test name="Node_FireFox_Chrome">
+
+	<classes>
+		<class name="Node_Remote.FireFox_Node_Remote"></class>
+		<class name="Node_Remote.Chrome_Node_Remote"></class>
+	</classes>
+</test>
+
+
+
+</suite>
+<!--  E:\Eclipse-Data\workspaces\Eclipse-inst-win64-Data-Neon\TestNG\xml-configs   -->
+<!-- <class name="LittleCat_TestNG.LittleCat_TestNG.SRM_TestNG"></class> -->

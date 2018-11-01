@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="24" total="32" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel TestSuite" duration-ms="188799" started-at="2018-10-31T18:06:40Z" finished-at="2018-10-31T18:09:49Z">
+    <groups>
+    </groups>
+    <test name="Node_FireFox_Chrome" duration-ms="187857" started-at="2018-10-31T18:06:40Z" finished-at="2018-10-31T18:09:48Z">
+      <class name="Node_Remote.FireFox_Node_Remote">
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="test_before" is-config="true" duration-ms="6871" started-at="2018-10-31T18:06:40Z" finished-at="2018-10-31T18:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_two_Simple_Form_Demo()[pri:1, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="test_two_Simple_Form_Demo" duration-ms="29852" started-at="2018-10-31T18:06:47Z" finished-at="2018-10-31T18:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two_Simple_Form_Demo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="endTest" is-config="true" duration-ms="839" started-at="2018-10-31T18:07:17Z" finished-at="2018-10-31T18:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="test_before" is-config="true" duration-ms="6301" started-at="2018-10-31T18:09:04Z" finished-at="2018-10-31T18:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_Drag_And_Drop()[pri:5, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="test_Drag_And_Drop" duration-ms="27816" started-at="2018-10-31T18:09:11Z" finished-at="2018-10-31T18:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Drag_And_Drop -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Node_Remote.FireFox_Node_Remote@42e26948]" name="endTest" is-config="true" duration-ms="805" started-at="2018-10-31T18:09:38Z" finished-at="2018-10-31T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Node_Remote.FireFox_Node_Remote -->
+      <class name="Node_Remote.Chrome_Node_Remote">
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="test_before" is-config="true" duration-ms="6896" started-at="2018-10-31T18:07:18Z" finished-at="2018-10-31T18:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_two_Simple_Form_Demo()[pri:1, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="test_two_Simple_Form_Demo" duration-ms="99685" started-at="2018-10-31T18:07:24Z" finished-at="2018-10-31T18:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two_Simple_Form_Demo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="endTest" is-config="true" duration-ms="140" started-at="2018-10-31T18:09:04Z" finished-at="2018-10-31T18:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="test_before" is-config="true" duration-ms="6267" started-at="2018-10-31T18:09:39Z" finished-at="2018-10-31T18:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_Drag_And_Drop()[pri:5, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="test_Drag_And_Drop" duration-ms="2239" started-at="2018-10-31T18:09:46Z" finished-at="2018-10-31T18:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Drag_And_Drop -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Node_Remote.Chrome_Node_Remote@57baeedf]" name="endTest" is-config="true" duration-ms="122" started-at="2018-10-31T18:09:48Z" finished-at="2018-10-31T18:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Node_Remote.Chrome_Node_Remote -->
+    </test> <!-- Node_FireFox_Chrome -->
+    <test name="Hub_FireFox" duration-ms="188799" started-at="2018-10-31T18:06:40Z" finished-at="2018-10-31T18:09:49Z">
+      <class name="Hub_Server.Chrome_Hub_Server">
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="test_before" is-config="true" duration-ms="7165" started-at="2018-10-31T18:06:40Z" finished-at="2018-10-31T18:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_two_Simple_Form_Demo()[pri:1, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="test_two_Simple_Form_Demo" duration-ms="32446" started-at="2018-10-31T18:06:47Z" finished-at="2018-10-31T18:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two_Simple_Form_Demo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="endTest" is-config="true" duration-ms="38" started-at="2018-10-31T18:07:20Z" finished-at="2018-10-31T18:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="test_before" is-config="true" duration-ms="6182" started-at="2018-10-31T18:09:04Z" finished-at="2018-10-31T18:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_Drag_And_Drop()[pri:5, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="test_Drag_And_Drop" duration-ms="29583" started-at="2018-10-31T18:09:10Z" finished-at="2018-10-31T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Drag_And_Drop -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Hub_Server.Chrome_Hub_Server@475530b9]" name="endTest" is-config="true" duration-ms="40" started-at="2018-10-31T18:09:39Z" finished-at="2018-10-31T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Hub_Server.Chrome_Hub_Server -->
+      <class name="Hub_Server.FireFox_Hub_Server">
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="test_before" is-config="true" duration-ms="5487" started-at="2018-10-31T18:07:20Z" finished-at="2018-10-31T18:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_two_Simple_Form_Demo()[pri:1, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="test_two_Simple_Form_Demo" duration-ms="97903" started-at="2018-10-31T18:07:25Z" finished-at="2018-10-31T18:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two_Simple_Form_Demo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="endTest" is-config="true" duration-ms="542" started-at="2018-10-31T18:09:03Z" finished-at="2018-10-31T18:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="test_before()[pri:0, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="test_before" is-config="true" duration-ms="5003" started-at="2018-10-31T18:09:39Z" finished-at="2018-10-31T18:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_before -->
+        <test-method status="PASS" signature="test_Drag_And_Drop()[pri:5, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="test_Drag_And_Drop" duration-ms="3876" started-at="2018-10-31T18:09:44Z" finished-at="2018-10-31T18:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Drag_And_Drop -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Hub_Server.FireFox_Hub_Server@1d057a39]" name="endTest" is-config="true" duration-ms="522" started-at="2018-10-31T18:09:48Z" finished-at="2018-10-31T18:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Hub_Server.FireFox_Hub_Server -->
+    </test> <!-- Hub_FireFox -->
+  </suite> <!-- Parallel TestSuite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression TestSuite">
+<test name="GroupsDemo">
+<groups>
+	<define name="group1">
+		<include name="checkout"></include>
+	</define>
+	<define name="group2">
+		<include name="option"></include>
+		<include name="checkout"></include>
+	</define>
+	<run>
+		<include name="group1"></include>
+	</run>
+</groups>
+	<classes>
+		<class name="LittleCat_TestNG.SRM_TestNG"></class>
+	</classes>
+</test>
+</suite>

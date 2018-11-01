@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel TestSuite]" parallel="tests">
+  <test thread-count="5" name="Hub_FireFox(failed)" parallel="tests">
+    <classes>
+      <class name="Hub_Server.Chrome_Hub_Server">
+        <methods>
+          <include name="test_before"/>
+          <include name="endTest"/>
+          <include name="test_two_Simple_Form_Demo"/>
+        </methods>
+      </class> <!-- Hub_Server.Chrome_Hub_Server -->
+    </classes>
+  </test> <!-- Hub_FireFox(failed) -->
+</suite> <!-- Failed suite [Parallel TestSuite] -->

@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel TestSuite" parallel="tests">
+<test name="GroupsDemo">
+<groups>
+	<define name="group1">
+		<include name="checkout"></include>
+	</define>
+	<define name="group2">
+		<include name="option"></include>
+		<include name="checkout"></include>
+	</define>
+	<run>
+		<include name="group1"></include>
+	</run>
+</groups>
+	<classes>
+		<class name="LittleCat_TestNG.SRM_TestNG"></class>
+	</classes>
+</test>
+
+<test name="Parallel 2">
+	<classes>
+		<class name="OOPS.LC_TBR_Chrome_Grid"></class>
+	</classes>
+
+</test>
+
+</suite>
+<!--  E:\Eclipse-Data\workspaces\Eclipse-inst-win64-Data-Neon\TestNG\xml-configs   -->
+<!-- <class name="LittleCat_TestNG.LittleCat_TestNG.SRM_TestNG"></class> -->
